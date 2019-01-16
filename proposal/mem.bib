@@ -1,0 +1,1313 @@
+%%% Architecture Papers Related to VM, TLB, MMU and etc. %%%
+
+@inproceedings{trade_off_two_page_size,
+ author = {Talluri, Madhusudhan and Kong, Shing and Hill, Mark D. and Patterson, David A.},
+ title = {Tradeoffs in Supporting Two Page Sizes},
+ booktitle = {Proceedings of the 19th Annual International Symposium on Computer Architecture},
+ series = {ISCA '92},
+ year = {1992},
+ isbn = {0-89791-509-7},
+ location = {Queensland, Australia},
+ pages = {415--424},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/139669.140406},
+ doi = {10.1145/139669.140406},
+ acmid = {140406},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{barr2010translation,
+  title={Translation caching: skip, don't walk (the page table)},
+  author={Barr, Thomas W and Cox, Alan L and Rixner, Scott},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={38},
+  number={3},
+  pages={48--59},
+  year={2010},
+  organization={ACM}
+}
+
+@inproceedings{basu2013efficient,
+  title={Efficient virtual memory for big memory servers},
+  author={Basu, Arkaprava and Gandhi, Jayneel and Chang, Jichuan and Hill, Mark D and Swift, Michael M},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={41},
+  number={3},
+  pages={237--248},
+  year={2013},
+  organization={ACM}
+}
+
+@inproceedings{isca_2015_redundant,
+ author = {Karakostas, Vasileios and Gandhi, Jayneel and Ayar, Furkan and Cristal, Adri\'{a}n and Hill, Mark D. and McKinley,
+Kathryn S. and Nemirovsky, Mario and Swift, Michael M. and \"{U}nsal, Osman},
+ title = {Redundant Memory Mappings for Fast Access to Large Memories},
+ booktitle = {Proceedings of the 42Nd Annual International Symposium on Computer Architecture},
+ series = {ISCA '15},
+ year = {2015},
+ isbn = {978-1-4503-3402-0},
+ location = {Portland, Oregon},
+ pages = {66--78},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2749469.2749471},
+ doi = {10.1145/2749469.2749471},
+ acmid = {2749471},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{Basu:2012:RMR:2337159.2337194,
+ author = {Basu, Arkaprava and Hill, Mark D. and Swift, Michael M.},
+ title = {Reducing Memory Reference Energy with Opportunistic Virtual Caching},
+ booktitle = {Proceedings of the 39th Annual International Symposium on Computer Architecture},
+ series = {ISCA '12},
+ year = {2012},
+ isbn = {978-1-4503-1642-2},
+ location = {Portland, Oregon},
+ pages = {297--308},
+ numpages = {12},
+ url = {http://dl.acm.org/citation.cfm?id=2337159.2337194},
+ acmid = {2337194},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+} 
+
+
+@inproceedings{Seshadri:2015:POE:2749469.2750379,
+ author = {Seshadri, Vivek and Pekhimenko, Gennady and Ruwase, Olatunji and Mutlu, Onur and Gibbons, Phillip B. and Kozuch, Michael A. and Mowry, Todd C. and Chilimbi, Trishul},
+ title = {Page Overlays: An Enhanced Virtual Memory Framework to Enable Fine-grained Memory Management},
+ booktitle = {Proceedings of the 42Nd Annual International Symposium on Computer Architecture},
+ series = {ISCA '15},
+ year = {2015},
+ isbn = {978-1-4503-3402-0},
+ location = {Portland, Oregon},
+ pages = {79--91},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2749469.2750379},
+ doi = {10.1145/2749469.2750379},
+ acmid = {2750379},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{du2015supporting,
+  title={Supporting superpages in non-contiguous physical memory},
+  author={Du, Yu and Zhou, Miao and Childers, Bruce R and Moss{\'e}, Daniel and Melhem, Rami},
+  booktitle={High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on},
+  pages={223--234},
+  year={2015},
+  organization={IEEE}
+}
+
+@article{weisberg2015virtual,
+  title={Virtual Memory Systems Should Use Larger Pages rather than the Traditional 4KB Pages},
+  author={Weisberg, Pinchas and Wiseman, Yair},
+  journal={memory},
+  volume={8},
+  number={8},
+  year={2015}
+}
+
+@inproceedings{jain2013linearizing,
+  title={Linearizing irregular memory accesses for improved correlated prefetching},
+  author={Jain, Akanksha and Lin, Calvin},
+  booktitle={Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages={247--259},
+  year={2013},
+  organization={ACM}
+}
+
+@inproceedings{papadopoulou2015prediction,
+  title={Prediction-based superpage-friendly TLB designs},
+  author={Papadopoulou, Misel-Myrto and Tong, Xin and Seznec, Andre and Moshovos, Andreas},
+  booktitle={High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on},
+  pages={210--222},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{pham2015large,
+  title={Large Pages and Lightweight Memory Management in Virtualized Environments: Can You Have it Both Ways?},
+  author={Pham, Binh and Vesel{\`y}, J{\'a}n and Loh, Gabriel H and Bhattacharjee, Abhishek},
+  booktitle={High Performance Computer Architecture (HPCA), 2015 IEEE 21st International Symposium on},
+  year={2015},
+  organization={IEEE}
+}
+
+@inproceedings{bhattacharjee2013large,
+  title={Large-reach memory management unit caches},
+  author={Bhattacharjee, Abhishek},
+  booktitle={Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages={383--394},
+  year={2013},
+  organization={ACM}
+}
+
+@inproceedings{seshadri2013rowclone,
+  title={Rowclone: Fast and energy-efficient in-DRAM bulk data copy and initialization},
+  author={Seshadri, Vivek and Kim, Yoongu and Fallin, Chris and Lee, Donghyuk and Ausavarungnirun, Rachata and Pekhimenko, Gennady and Luo, Yixin and Mutlu, Onur and Gibbons, Phillip B and Kozuch, Michael A and others},
+  booktitle={Proceedings of the 46th Annual IEEE/ACM International Symposium on Microarchitecture},
+  pages={185--197},
+  year={2013},
+  organization={ACM}
+}
+
+@inproceedings{pham2014increasing,
+  title={Increasing TLB reach by exploiting clustering in page translations},
+  author={Pham, Binh and Bhattacharjee, Arup and Eckert, Yasuko and Loh, Gabriel H},
+  booktitle={High Performance Computer Architecture (HPCA), 2014 IEEE 20th International Symposium on},
+  pages={558--567},
+  year={2014},
+  organization={IEEE}
+}
+
+
+
+@inproceedings{bhattacharjee2009characterizing,
+  title={Characterizing the TLB behavior of emerging parallel workloads on chip multiprocessors},
+  author={Bhattacharjee, Abhishek and Martonosi, Margaret},
+  booktitle={Parallel Architectures and Compilation Techniques, 2009. PACT'09. 18th International Conference on},
+  pages={29--40},
+  year={2009},
+  organization={IEEE}
+}
+
+@inproceedings{pham2012colt,
+  title={Colt: Coalesced large-reach tlbs},
+  author={Pham, Binh and Vaidyanathan, Viswanathan and Jaleel, Aamer and Bhattacharjee, Arup},
+  booktitle={Microarchitecture (MICRO), 2012 45th Annual IEEE/ACM International Symposium on},
+  pages={258--269},
+  year={2012},
+  organization={IEEE}
+}
+
+
+@article{esteveefficient,
+  title={Efficient TLB-Based Detection of Private Pages in Chip Multiprocessors},
+  author={Esteve, Albert and Ros, Alberto and Gomez, Maria and Robles, Antonio and Duato, Jose},
+  journal={Parallel and Distributed Systems, IEEE Transactions on},
+  volume={PP},
+  issue={99},
+  publisher={IEEE}
+}
+
+
+%%% General Storage Allocation Papers %%%
+
+@inproceedings{buddy_sys_1971,
+ author = {Peterson, James L. and Norman, Theodore A.},
+ title = {Buddy Systems},
+ journal = {Commun. ACM},
+ issue_date = {June 1977},
+ volume = {20},
+ number = {6},
+ month = jun,
+ year = {1977},
+ issn = {0001-0782},
+ pages = {421--431},
+ numpages = {11},
+ url = {http://doi.acm.org/10.1145/359605.359626},
+ doi = {10.1145/359605.359626},
+ acmid = {359626},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Fibonacci buddy system, buddy system, dynamic storage allocation, fragmentation, weighted buddy system},
+} 
+
+@inproceedings{pldi_life_time,
+ author = {Barrett, David A. and Zorn, Benjamin G.},
+ title = {Using Lifetime Predictors to Improve Memory Allocation Performance},
+ booktitle = {Proceedings of the ACM SIGPLAN 1993 Conference on Programming Language Design and Implementation},
+ series = {PLDI '93},
+ year = {1993},
+ isbn = {0-89791-598-4},
+ location = {Albuquerque, New Mexico, USA},
+ pages = {187--196},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/155090.155108},
+ doi = {10.1145/155090.155108},
+ acmid = {155108},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+%%% OS Papers %%%
+@article{vm_working_set,
+ author = {Denning, Peter J.},
+ title = {Virtual Memory},
+ journal = {ACM Comput. Surv.},
+ issue_date = {Sept. 1970},
+ volume = {2},
+ number = {3},
+ month = sep,
+ year = {1970},
+ issn = {0360-0300},
+ pages = {153--189},
+ numpages = {37},
+ url = {http://doi.acm.org/10.1145/356571.356573},
+ doi = {10.1145/356571.356573},
+ acmid = {356573},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{osdi_idle_mmu,
+    author = {Cort Dougan and Cort Dougan and Paul Mackerras and Paul Mackerras and Victor Yodaiken and Victor Yodaiken},
+    title = {Optimizing the idle task and other MMU tricks},
+    booktitle = {In Proceedings of the Usenix Symposium on Operating Systems Design and Implementation},
+    year = {1999},
+    pages = {229--237}
+}
+
+@inproceedings{osdi_super_page,
+ author = {Navarro, Juan and Iyer, Sitararn and Druschel, Peter and Cox, Alan},
+ title = {Practical, Transparent Operating System Support for Superpages},
+ journal = {SIGOPS Oper. Syst. Rev.},
+ issue_date = {Winter 2002},
+ volume = {36},
+ number = {SI},
+ month = dec,
+ year = {2002},
+ issn = {0163-5980},
+ pages = {89--104},
+ numpages = {16},
+ url = {http://doi.acm.org/10.1145/844128.844138},
+ doi = {10.1145/844128.844138},
+ acmid = {844138},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+}
+
+@inproceedings{ismm_control_frag,
+ author = {Kim, Sang-Hoon and Kwon, Sejun and Kim, Jin-Soo and Jeong, Jinkyu},
+ title = {Controlling Physical Memory Fragmentation in Mobile Systems},
+ booktitle = {Proceedings of the 2015 ACM SIGPLAN International Symposium on Memory Management},
+ series = {ISMM 2015},
+ year = {2015},
+ isbn = {978-1-4503-3589-8},
+ location = {Portland, OR, USA},
+ pages = {1--14},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/2754169.2754179},
+ doi = {10.1145/2754169.2754179},
+ acmid = {2754179},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Memory fragmentation, Mobile systems},
+} 
+
+@inproceedings{jeong2012daac,
+  title={DaaC: device-reserved memory as an eviction-based file cache},
+  author={Jeong, Jinkyu and Kim, Hwanju and Hwang, Jeaho and Lee, Joonwon and Maeng, Seungryoul},
+  booktitle={Proceedings of the 2012 international conference on Compilers, architectures and synthesis for embedded systems},
+  pages={191--200},
+  year={2012},
+  organization={ACM}
+}
+
+@inproceedings{jeong2013rigorous,
+  title={Rigorous rental memory management for embedded systems},
+  author={Jeong, Jinkyu and Kim, Hwanju and Hwang, Jeaho and Lee, Joonwon and Maeng, Seungryoul},
+  journal={ACM Transactions on Embedded Computing Systems (TECS)},
+  volume={12},
+  number={1s},
+  pages={43},
+  year={2013},
+  publisher={ACM}
+}
+
+%%% Linux Specifics :anti-frag and etc. %%%
+@misc{linux_mem_reclaim_bad,
+  title = {Optimizing Linux Memory Management for Low-latency and High-throughput Databases},
+  author={Mehta, Mehta and Tran, Cuong},
+}
+
+@misc{linux_code_pgtable_type,
+  title = {Linux Page Table Type Header},
+  howpublished = {\url{http://lxr.free-electrons.com/source/arch/x86/include/asm/pgtable_types.h}},
+}
+
+@misc{linux_ion,
+  title = {The Android ION memory allocator},
+  howpublished = {\url{http://lwn.net/Article/480055}},
+}
+
+@misc{linux_dma32,
+  title = {Add 4GB DMA32 zone},
+  howpublished = {\url{https://lwn.net/Articles/152337/}}
+}
+
+@misc{xnu_code,
+  title = {XNU - Mac OS X kernel},
+  howpublished = {\url{https://github.com/opensource-apple/xnu}}
+}
+
+@misc{reactos_code,
+  title = {ReactOS Project},
+  howpublished = {\url{https://www.reactos.org/}}
+}
+
+@misc{linux_mem_compact,
+
+  title = {Linux Memory Compact},
+  howpublished = {\url{https://lwn.net/Articles/368869/}},
+}
+
+@misc{linux_mem_compact_redesign,
+  title = {Redesign Compaction Algorithm},
+  howpublished = {\url{https://lwn.net/Articles/649295/}},
+}
+
+@misc{linux_kcompactd,
+  howpublished = {\url{https://lkml.org/lkml/2015/7/2/132}},
+}
+
+
+@misc{linux_cma,
+  title = {A reworked contiguous memory allocator},
+  howpublished = {\url{http://lwn.net/Articles/447405/}},
+}
+
+@misc{linux_migrate_type,
+  title = {Avoiding and fixing memory fragmentation},
+  howpublished = {\url{https://lwn.net/Articles/211505/}},
+}
+
+@misc{linux_zswap,
+  title = {The zswap compressed swap cache},
+  howpublished = {\url{https://lwn.net/Articles/537422/}},
+}
+
+
+@inproceedings{linux_support_contig,
+  title={Supporting the allocation of large contiguous regions of memory},
+  author={Gorman, Mel and Whitcroft, Andy},
+  booktitle={Ottawa Linux Symposium (OLS)},
+  pages={141--152},
+  year={2007}
+}
+
+@inproceedings{ismm_support_super_page_no_hardware,
+ author = {Gorman, Mel and Healy, Patrick},
+ title = {Supporting Superpage Allocation Without Additional Hardware Support},
+ booktitle = {Proceedings of the 7th International Symposium on Memory Management},
+ series = {ISMM '08},
+ year = {2008},
+ isbn = {978-1-60558-134-7},
+ location = {Tucson, AZ, USA},
+ pages = {41--50},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1375634.1375641},
+ doi = {10.1145/1375634.1375641},
+ acmid = {1375641},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {fragmentation, replacement policy, superpage, tlb},
+} 
+
+@inproceedings{ols_anti_frag,
+ author = {Gorman, Mel and  Andy, Whitcroft},
+ title = {The what, the why and the where to of anti-fragmentation},
+ booktitle = {Ottawa Linux Symposium 2006 Proceedings Volume 1},
+ pages = {361--377},
+ year = {2006},
+} 
+
+@inproceedings{ols_hot_plug,
+ author = {Dave Hansen, Mike Kravetz, with Brad Christiansen},
+ title = {Hotplug Memory and the Linux VM},
+ booktitle = {Ottawa Linux Symposium 2004 Proceedings Volume 1},
+ pages = {287--294},
+ year = {2006},
+} 
+
+@article{gorman2010availability,
+  title={On the availability of superpages in a general operating system and an evaluation of the performance of explicit superpage support},
+  author={Gorman, Mel},
+  year={2010},
+  publisher={University of Limerick}
+}
+
+@article{intel_tlbs,
+  title={TLBs, Paging-Structure Caches, and Their Invalidation},
+  author={Intel Corporation},
+  year={2008},
+  publisher={Intel Technical Report}
+}
+
+
+@article{richard2014lieu,
+  title={In lieu of swap: Analyzing compressed RAM in Mac OS X and Linux},
+  author={Richard, Golden G and Case, Andrew},
+  journal={Digital Investigation},
+  volume={11},
+  pages={S3--S12},
+  year={2014},
+  publisher={Elsevier}
+}
+
+
+
+%%% Linux Memory Hotplug and Balloning %%%
+
+@inproceedings{linux_hotplug,
+  title={Resizing Memory With Balloons and Hotplug},
+  author={Silbermann, Martine J},
+  booktitle={Linux Symposium},
+  pages={305--314},
+  year={2006}
+}
+
+@inproceedings{linux_hotplug_balloon,
+  title={Hotplug or ballooning: A comparative study on dynamic memory management techniques for virtual machines},
+  author={Liu, Haikun and Jin, Hai and Liao, Xiaofei and Deng, Wei and He, Bingsheng and Xu, Cheng-zhong},
+  journal={Parallel and Distributed Systems, IEEE Transactions on},
+  volume={26},
+  number={5},
+  pages={1350--1363},
+  year={2015},
+  publisher={IEEE}
+}
+
+@inproceedings{the_slab,
+    author = {Jeff Bonwick and Sun Microsystems},
+    title = {The Slab Allocator: An Object-Caching Kernel Memory Allocator},
+    booktitle = {In USENIX Summer},
+    year = {1994},
+    pages = {87--98}
+}
+
+%%%% Books %%%%%
+@book{book_freebsd,
+  title={The design and implementation of the FreeBSD operating system},
+  author={McKusick, Marshall Kirk and Neville-Neil, George V and Watson, Robert NM},
+  year={2014},
+  publisher={Pearson Education}
+}
+
+%%%% FreeBSD stuff %%%%%
+
+@article{dillon2000design,
+  title={Design elements of the FreeBSD VM system},
+  author={Dillon, Matthew},
+  journal={Daemon News},
+  year={2000}
+}
+
+
+%%%% Page coloring %%%%%
+@inproceedings{swap_super_color,
+ author = {Cui, Zehan and Chen, Licheng and Bao, Yungang and Chen, Mingyu},
+ title = {A Swap-based Cache Set Index Scheme to Leverage Both Superpage and Page Coloring Optimizations},
+ booktitle = {Proceedings of the 51st Annual Design Automation Conference},
+ series = {DAC '14},
+ year = {2014},
+ isbn = {978-1-4503-2730-5},
+ location = {San Francisco, CA, USA},
+ pages = {140:1--140:6},
+ articleno = {140},
+ numpages = {6},
+ url = {http://doi.acm.org/10.1145/2593069.2593078},
+ doi = {10.1145/2593069.2593078},
+ acmid = {2593078},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{scattered_super_page,
+  title={Scattered superpage: A case for bridging the gap between superpage and page coloring},
+  author={Chen, Licheng and Wang, Yanan and Cui, Zehan and Huang, Yongbing and Bao, Yungang and Chen, Mingyu},
+  booktitle={Computer Design (ICCD), 2013 IEEE 31st International Conference on},
+  pages={177--184},
+  year={2013},
+  organization={IEEE}
+}
+
+
+%%%%% Kenrel Books %%%%%%%
+@book{singh2006mac,
+  title={Mac OS X internals: a systems approach},
+  author={Singh, Amit},
+  year={2006},
+  publisher={Addison-Wesley Professional}
+}
+
+@book{levin2012mac,
+  title={Mac OS X and IOS Internals: To the Apple's Core},
+  author={Levin, Jonathan},
+  year={2012},
+  publisher={John Wiley \& Sons}
+}
+
+@book{russinovich2012windows,
+  title={Windows internals},
+  author={Russinovich, Mark E and Solomon, David A and Ionescu, Alex},
+  year={2012},
+  publisher={Pearson Education}
+}
+
+%%%%%%% File Systgem %%%%%%
+@inproceedings{kv2008ext4,
+  title={Ext4 block and inode allocator improvements},
+  author={KV, Aneesh Kumar and Cao, Mingming and Santos, Jose R and Dilger, Andreas},
+  booktitle={Linux Symposium},
+  volume={1},
+  year={2008}
+}
+
+
+@inproceedings{xfs,
+  title={Scalability in the XFS File System.},
+  author={Sweeney, Adam and Doucette, Doug and Hu, Wei and Anderson, Curtis and Nishimoto, Mike and Peck, Geoff},
+  booktitle={USENIX Annual Technical Conference},
+  volume={15},
+  year={1996}
+}
+
+@misc{jfs,
+  title = {JFS Overview},
+  howpublished = {\url{http://jfs.sourceforge.net/project/pub/jfs.pdf}},
+}
+
+@inproceedings{ext4,
+  title={The new ext4 filesystem: current status and future plans},
+  author={Mathur, Avantika and Cao, Mingming and Bhattacharya, Suparna and Dilger, Andreas and Tomas, Alex and Vivier, Laurent},
+  booktitle={Proceedings of the Linux Symposium},
+  volume={2},
+  pages={21--33},
+  year={2007},
+  organization={Citeseer}
+}
+
+@misc{ext4_disk_layout,
+  title = {Ext4 Disk Layout},
+  howpublished = {\url{https://ext4.wiki.kernel.org/index.php/Ext4_Disk_Layout}},
+}
+
+@misc{zfs_block_alloc,
+  title = {ZFS Block Allocation},
+  howpublished = {\url{https://blogs.oracle.com/bonwick/en_US/entry/zfs_block_allocation}},
+}
+
+@misc{zfs_write_performance_on_frag_disk,
+  title = {ZFS Write Performance (Impact of fragmentation)},
+  howpublished = {\url{http://blog.delphix.com/uday/2013/02/19/78/}},
+}
+
+@misc{zfs_frag_sol,
+  title = {ZFS Fragmentation: Long Term Solutions},
+  howpublished = {\url{https://github.com/zfsonlinux/zfs/issues/3582}},
+}
+
+@article{bonwick2007zfs,
+  title={ZFS: The last word in file systems},
+  author={Bonwick, Jeff and Moore, Bill},
+  year={2007}
+}
+
+@article{microsystem2006zfs,
+  title={Zfs on-disk specification draft},
+  author={Microsystem, Sun},
+  journal={Rapport technique, Sun Microsystem},
+  year={2006}
+}
+
+
+@article{mathur2007ext4,
+  title={Ext4: the next generation of the ext3 file system},
+  author={Mathur, Avantika and Cao, Mingming and Dilger, Andreas}
+}
+
+@inproceedings{kadekodi2010taking,
+  title={Taking Linux Filesystems to the Space Age: Space Maps in Ext4},
+  author={Kadekodi, Saurabh and Jain, Shweta},
+  booktitle={Linux Symposium},
+  pages={121},
+  year={2010},
+  organization={Citeseer}
+}
+
+@inproceedings{bonwick_zfs,
+  title={The zettabyte file system},
+  author={Bonwick, Jeff and Ahrens, Matt and Henson, Val and Maybee, Mark and Shellenbaum, Mark},
+  booktitle={Proc. of the 2nd Usenix Conference on File and Storage Technologies},
+  year={2003}
+}
+
+%%%%%%% Heap Management %%%%%%%%%
+@misc{dlmalloc,
+  title = {A Memory Allocator},
+  howpublished = {\url{http://g.oswego.edu/dl/html/malloc}},
+}
+
+@article{berger2000hoard,
+  title={Hoard: A scalable memory allocator for multithreaded applications},
+  author={Berger, Emery D and McKinley, Kathryn S and Blumofe, Robert D and Wilson, Paul R},
+  journal={ACM Sigplan Notices},
+  volume={35},
+  number={11},
+  pages={117--128},
+  year={2000},
+  publisher={ACM}
+}
+
+@inproceedings{evans2006scalable,
+  title={A scalable concurrent malloc (3) implementation for FreeBSD},
+  author={Evans, Jason},
+  year={2006}
+}
+
+@misc{thefoundations,
+  author = {Alexey Kukanov, Michael J. Voss},
+  title = {The Foundations for Scalable Multi-Core Software in Intel ® Threading Building Blocks},
+  journal={Intel Technology Journal},
+  volume={11},
+  issue={04},
+  year={2007},
+}
+
+@inproceedings{Kuszmaul,
+ author = {Kuszmaul, Bradley C.},
+ title = {SuperMalloc: A Super Fast Multithreaded Malloc for 64-bit Machines},
+ booktitle = {Proceedings of the 2015 ACM SIGPLAN International Symposium on Memory Management},
+ series = {ISMM 2015},
+ year = {2015},
+ isbn = {978-1-4503-3589-8},
+ location = {Portland, OR, USA},
+ pages = {41--55},
+ numpages = {15},
+ url = {http://doi.acm.org/10.1145/2754169.2754178},
+ doi = {10.1145/2754169.2754178},
+ acmid = {2754178},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Memory Allocation Library, Virtual Memory, malloc},
+} 
+
+@misc{malloc_for_haskell,
+  title = {malloc for Haswell - Hardware Transactional Memory},
+  howpublished = {\url{https://blogs.oracle.com/dave/entry/malloc_for_haswell_hardware_transactional}},
+}
+
+%%%%%%%%%%% Memory Management of Virutal Machine/Cloud %%%%%%%%%%%%%%%
+@inproceedings{lorrillere2015puma,
+  title={Puma: pooling unused memory in virtual machines for I/O intensive applications},
+  author={Lorrillere, Maxime and Sopena, Julien and Monnet, S{\'e}bastien and Sens, Pierre},
+  booktitle={Proceedings of the 8th ACM International Systems and Storage Conference},
+  pages={1},
+  year={2015},
+  organization={ACM}
+}
+
+@inproceedings{Guo:2015:PBL:2731186.2731187,
+ author = {Guo, Fei and Kim, Seongbeom and Baskakov, Yury and Banerjee, Ishan},
+ title = {Proactively Breaking Large Pages to Improve Memory Overcommitment Performance in VMware ESXi},
+ booktitle = {Proceedings of the 11th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments},
+ series = {VEE '15},
+ year = {2015},
+ isbn = {978-1-4503-3450-1},
+ location = {Istanbul, Turkey},
+ pages = {39--51},
+ numpages = {13},
+ url = {http://doi.acm.org/10.1145/2731186.2731187},
+ doi = {10.1145/2731186.2731187},
+ acmid = {2731187},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {large page, memory overcommitment, page sharing, resource management, virtualization},
+} 
+
+
+@inproceedings{Hwang:2014:MFG:2576195.2576203,
+ author = {Hwang, Jinho and Uppal, Ahsen and Wood, Timothy and Huang, Howie},
+ title = {Mortar: Filling the Gaps in Data Center Memory},
+ booktitle = {Proceedings of the 10th ACM SIGPLAN/SIGOPS International Conference on Virtual Execution Environments},
+ series = {VEE '14},
+ year = {2014},
+ isbn = {978-1-4503-2764-0},
+ location = {Salt Lake City, Utah, USA},
+ pages = {53--64},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2576195.2576203},
+ doi = {10.1145/2576195.2576203},
+ acmid = {2576203},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {disk prefetching, memcached, memory management, virtualization},
+} 
+
+@inproceedings{miller2012ksm++,
+  title={KSM++: Using I/O-based hints to make memory-deduplication scanners more efficient},
+  author={Miller, Konrad and Franz, Fabian and Groeninger, Thorsten and Rittinghaus, Marc and Hillenbrand, Marius and Bellosa, Frank},
+  booktitle={Proceedings of the ASPLOS Workshop on Runtime Environments, Systems, Layering and Virtualized Environments (RESoLVE'12)},
+  year={2012}
+}
+
+@inproceedings{Amit:2014:VMS:2541940.2541969,
+ author = {Amit, Nadav and Tsafrir, Dan and Schuster, Assaf},
+ title = {VSwapper: A Memory Swapper for Virtualized Environments},
+ booktitle = {Proceedings of the 19th International Conference on Architectural Support for Programming Languages and Operating Systems},
+ series = {ASPLOS '14},
+ year = {2014},
+ isbn = {978-1-4503-2305-5},
+ location = {Salt Lake City, Utah, USA},
+ pages = {349--366},
+ numpages = {18},
+ url = {http://doi.acm.org/10.1145/2541940.2541969},
+ doi = {10.1145/2541940.2541969},
+ acmid = {2541969},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {emulation, hypervisor, memory balloon, memory overcommitment, page faults, paging, swapping, virtual machines, virtualization},
+} 
+
+@inproceedings{Salomie:2013:ALB:2465351.2465384,
+ author = {Salomie, Tudor-Ioan and Alonso, Gustavo and Roscoe, Timothy and Elphinstone, Kevin},
+ title = {Application Level Ballooning for Efficient Server Consolidation},
+ booktitle = {Proceedings of the 8th ACM European Conference on Computer Systems},
+ series = {EuroSys '13},
+ year = {2013},
+ isbn = {978-1-4503-1994-2},
+ location = {Prague, Czech Republic},
+ pages = {337--350},
+ numpages = {14},
+ url = {http://doi.acm.org/10.1145/2465351.2465384},
+ doi = {10.1145/2465351.2465384},
+ acmid = {2465384},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+@inproceedings{ahn2012revisiting,
+  title={Revisiting hardware-assisted page walks for virtualized systems},
+  author={Ahn, Jeongseob and Jin, Seongwook and Huh, Jaehyuk},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={40},
+  number={3},
+  pages={476--487},
+  year={2012},
+  organization={IEEE Computer Society}
+}
+
+
+@inproceedings{Chang:2013:IVP:2485922.2485933,
+ author = {Chang, Xiaotao and Franke, Hubertus and Ge, Yi and Liu, Tao and Wang, Kun and Xenidis, Jimi and Chen, Fei and Zhang, Yu},
+ title = {Improving Virtualization in the Presence of Software Managed Translation Lookaside Buffers},
+ booktitle = {Proceedings of the 40th Annual International Symposium on Computer Architecture},
+ series = {ISCA '13},
+ year = {2013},
+ isbn = {978-1-4503-2079-5},
+ location = {Tel-Aviv, Israel},
+ pages = {120--129},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/2485922.2485933},
+ doi = {10.1145/2485922.2485933},
+ acmid = {2485933},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+} 
+
+
+@inproceedings{Gandhi:2014:EMV:2742155.2742173,
+ author = {Gandhi, Jayneel and Basu, Arkaprava and Hill, Mark D. and Swift, Michael M.},
+ title = {Efficient Memory Virtualization: Reducing Dimensionality of Nested Page Walks},
+ booktitle = {Proceedings of the 47th Annual IEEE/ACM International Symposium on Microarchitecture},
+ series = {MICRO-47},
+ year = {2014},
+ isbn = {978-1-4799-6998-2},
+ location = {Cambridge, United Kingdom},
+ pages = {178--189},
+ numpages = {12},
+ url = {http://dx.doi.org/10.1109/MICRO.2014.37},
+ doi = {10.1109/MICRO.2014.37},
+ acmid = {2742173},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ keywords = {translation lookaside buffer, virtual machines, virtual memory, virtualization},
+} 
+
+
+@article{bhargava2008accelerating,
+  title={Accelerating two-dimensional page walks for virtualized systems},
+  author={Bhargava, Ravi and Serebrin, Benjamin and Spadini, Francesco and Manne, Srilatha},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={42},
+  number={2},
+  pages={26--35},
+  year={2008},
+  publisher={ACM}
+}
+
+
+@inproceedings{mccune2010trustvisor,
+  title={TrustVisor: Efficient TCB reduction and attestation},
+  author={McCune, Jonathan M and Li, Yanlin and Qu, Ning and Zhou, Zongwei and Datta, Anupam and Gligor, Virgil and Perrig, Adrian},
+  booktitle={Security and Privacy (SP), 2010 IEEE Symposium on},
+  pages={143--158},
+  year={2010},
+  organization={IEEE}
+}
+
+
+@inproceedings{Srikantaiah:2010:STH:1934902.1934978,
+ author = {Srikantaiah, Shekhar and Kandemir, Mahmut},
+ title = {Synergistic TLBs for High Performance Address Translation in Chip Multiprocessors},
+ booktitle = {Proceedings of the 2010 43rd Annual IEEE/ACM International Symposium on Microarchitecture},
+ series = {MICRO '43},
+ year = {2010},
+ isbn = {978-0-7695-4299-7},
+ pages = {313--324},
+ numpages = {12},
+ url = {http://dx.doi.org/10.1109/MICRO.2010.26},
+ doi = {10.1109/MICRO.2010.26},
+ acmid = {1934978},
+ publisher = {IEEE Computer Society},
+ address = {Washington, DC, USA},
+ keywords = {Synergistic TLB, CMP, translation replication, translation migration},
+} 
+
+
+
+%%%%%%%%%%% Memory Management of JVM %%%%%%%%%%%%%%%
+@book{jones2011garbage,
+  title={The garbage collection handbook: the art of automatic memory management},
+  author={Jones, Richard and Hosking, Antony and Moss, Eliot},
+  year={2011},
+  publisher={Chapman \& Hall/CRC}
+}
+
+@article{lieberman1983real,
+  title={A real-time garbage collector based on the lifetimes of objects},
+  author={Lieberman, Henry and Hewitt, Carl},
+  journal={Communications of the ACM},
+  volume={26},
+  number={6},
+  pages={419--429},
+  year={1983},
+  publisher={ACM}
+}
+
+@article{appel1989simple,
+  title={Simple generational garbage collection and fast allocation},
+  author={Appel, Andrew W},
+  journal={Software: Practice and Experience},
+  volume={19},
+  number={2},
+  pages={171--183},
+  year={1989},
+  publisher={Wiley Online Library}
+}
+
+@article{rosenblum1992design,
+  title={The design and implementation of a log-structured file system},
+  author={Rosenblum, Mendel and Ousterhout, John K},
+  journal={ACM Transactions on Computer Systems (TOCS)},
+  volume={10},
+  number={1},
+  pages={26--52},
+  year={1992},
+  publisher={ACM}
+}
+
+@inproceedings{gaud2014large,
+  title={Large pages may be harmful on numa systems},
+  author={Gaud, Fabien and Lepers, Baptiste and Decouchant, Jeremie and Funston, Justin and Fedorova, Alexandra and Qu{\'e}ma, Vivien}
+}
+
+
+@inproceedings{Gidra:2013:SSS:2451116.2451142,
+ author = {Gidra, Lokesh and Thomas, Ga\"{e}l and Sopena, Julien and Shapiro, Marc},
+ title = {A Study of the Scalability of Stop-the-world Garbage Collectors on Multicores},
+ booktitle = {Proceedings of the Eighteenth International Conference on Architectural Support for Programming Languages and Operating Systems},
+ series = {ASPLOS '13},
+ year = {2013},
+ isbn = {978-1-4503-1870-9},
+ location = {Houston, Texas, USA},
+ pages = {229--240},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2451116.2451142},
+ doi = {10.1145/2451116.2451142},
+ acmid = {2451142},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {garbage collection, multicore, numa},
+} 
+
+
+
+@inproceedings{gidra:hal-01178790,
+  TITLE = {NumaGiC: a Garbage Collector for Big Data on Big NUMA Machines},
+  AUTHOR = {Gidra, Lokesh and Thomas, Ga{\"e}l and Sopena, Julien and Shapiro, Marc and Nguyen, Nhan},
+  URL = {https://hal.archives-ouvertes.fr/hal-01178790},
+  BOOKTITLE = {{20th International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)}},
+  ADDRESS = {Istanbul, Turkey},
+  ORGANIZATION = {{ACM SIGOPS, ACM SIGPLAN, ACM SIGARCH}},
+  PUBLISHER = {{ACM}},
+  SERIES = {Architectural Support for Programming Languages and Operating Systems (ASPLOS)},
+  PAGES = {661-673},
+  YEAR = {2015},
+  MONTH = Mar,
+  DOI = {10.1145/2694344.2694361},
+  KEYWORDS = {multicore ; NUMA ; Garbage collection},
+  PDF = {https://hal.archives-ouvertes.fr/hal-01178790/file/gidra15asplos-numagic.pdf},
+  HAL_ID = {hal-01178790},
+  HAL_VERSION = {v1},
+}
+
+@inproceedings{ousterhout2015making,
+  title={Making sense of performance in data analytics frameworks},
+  author={Ousterhout, Kay and Rasti, Ryan}
+}
+
+@article{gog2015broom,
+  title={Broom: sweeping out Garbage Collection from Big Data systems},
+  author={Gog, Ionel and Giceva, Jana and Schwarzkopf, Malte and Vaswani, Kapil and Vytiniotis, Dimitrios and Ramalingan, Ganesan and Costa, Manuel and Murray, Derek and Hand, Steven and Isard, Michael},
+  journal={Young},
+  volume={4},
+  pages={8}
+}
+@inproceedings{fang2015interruptible,
+  title={Interruptible tasks: Treating memory pressure as interrupts for highly scalable data-parallel programs},
+  author={Fang, Lu and Nguyen, Khanh and Xu, Guoqing and Demsky, Brian and Lu, Shan},
+  booktitle={Proceedings of the 25th Symposium on Operating Systems Principles},
+  pages={394--409},
+  year={2015},
+  organization={ACM}
+}
+
+@inproceedings{Qian:2015:SAO:2807426.2807441,
+ author = {Qian, Junjie and Srisa-an, Witawas and Li, Du and Jiang, Hong and Seth, Sharad and Yang, Yaodong},
+ title = {SmartStealing: Analysis and Optimization of Work Stealing in Parallel Garbage Collection for Java VM},
+ booktitle = {Proceedings of the Principles and Practices of Programming on The Java Platform},
+ series = {PPPJ '15},
+ year = {2015},
+ isbn = {978-1-4503-3712-0},
+ location = {Melbourne, FL, USA},
+ pages = {170--181},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2807426.2807441},
+ doi = {10.1145/2807426.2807441},
+ acmid = {2807441},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Parallel garbage collection, Work stealing},
+} 
+
+@misc{microystems2006memory,
+  title={Memory Management in the Java HotSpot™ Virtual Machine},
+  author={Microystems, SUN},
+  year={2006},
+  publisher={April}
+}
+
+@article{alnowaisertopology,
+  title={Topology-Aware Parallelism for NUMA Copying Collectors},
+  author={Alnowaiser, Khaled and Singer, Jeremy}
+}
+
+
+%% Some useful links for memory in big data
+%% http://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-10-16-Strata.pdf 
+%% http://www.cs.berkeley.edu/~haoyuan/talks/Tachyon_2014-06-30_Spark_Summit.pdf
+%% http://www.tachyonnexus.com/downloads/Tachyon_2015-09-30_Strata.pdf
+
+%%%%%% Mobile system memory %%%%%%%%
+@inproceedings{Ren:2015:MDS:2813767.2813813,
+ author = {Ren, Jinglei and Liang, Chieh-Jan Mike and Wu, Yongwei and Moscibroda, Thomas},
+ title = {Memory-centric Data Storage for Mobile Systems},
+ booktitle = {Proceedings of the 2015 USENIX Conference on Usenix Annual Technical Conference},
+ series = {USENIX ATC '15},
+ year = {2015},
+ isbn = {978-1-931971-225},
+ location = {Santa Clara, CA},
+ pages = {599--611},
+ numpages = {13},
+ url = {http://dl.acm.org/citation.cfm?id=2813767.2813813},
+ acmid = {2813813},
+ publisher = {USENIX Association},
+ address = {Berkeley, CA, USA},
+} 
+
+%%%%%%% Memory management VS. latency %%%%%%%%%%%
+@article{craciunas2014concurrency,
+  title={Concurrency and Scalability versus Fragmentation and Compaction with Compact-fit},
+  author={Craciunas, Silviu S and Kirsch, Christoph M and Payer, Hannes and R{\"o}ck, Harald and Sokolova, Ana},
+  journal={arXiv preprint arXiv:1404.1830},
+  year={2014}
+}
+
+@inproceedings{liu2012ssmalloc,
+  title={SSMalloc: a low-latency, locality-conscious memory allocator with stable performance scalability},
+  author={Liu, Ran and Chen, Haibo},
+  booktitle={Proceedings of the Asia-Pacific Workshop on Systems},
+  pages={15},
+  year={2012},
+  organization={ACM}
+}
+
+@inproceedings{clements2013radixvm,
+  title={RadixVM: Scalable address spaces for multithreaded applications},
+  author={Clements, Austin T and Kaashoek, M Frans and Zeldovich, Nickolai},
+  booktitle={Proceedings of the 8th ACM European Conference on Computer Systems},
+  pages={211--224},
+  year={2013},
+  organization={ACM}
+}
+
+
+@inproceedings{kozyrakis2011memory,
+  title={Memory management beyond free ()},
+  author={Kozyrakis, Christos},
+  booktitle={Keynote: International Symposium on Memory Management},
+  year={2011}
+}
+
+
+@phdthesis{sudan2013data,
+  title={Data placement for efficient main memory access},
+  author={Sudan, Kshitij},
+  year={2013},
+  school={Citeseer}
+}
+
+
+@inproceedings{rumble2014log,
+  title={Log-structured memory for DRAM-based storage.},
+  author={Rumble, Stephen M and Kejriwal, Ankita and Ousterhout, John K},
+  booktitle={FAST},
+  volume={1},
+  pages={16},
+  year={2014}
+}
+
+@inproceedings{belay2014ix,
+  title={IX: A protected dataplane operating system for high throughput and low latency},
+  author={Belay, Adam and Prekas, George}
+}
+
+@inproceedings{Clapp:2015:SMQ:2745844.2745900,
+ author = {Clapp, Russell and Dimitrov, Martin and Kumar, Karthik and Viswanathan, Vish and Willhalm, Thomas},
+ title = {A Simple Model to Quantify the Impact of Memory Latency and Bandwidth on Performance},
+ booktitle = {Proceedings of the 2015 ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems},
+ series = {SIGMETRICS '15},
+ year = {2015},
+ isbn = {978-1-4503-3486-0},
+ location = {Portland, Oregon, USA},
+ pages = {471--472},
+ numpages = {2},
+ url = {http://doi.acm.org/10.1145/2745844.2745900},
+ doi = {10.1145/2745844.2745900},
+ acmid = {2745900},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {performance modeling, workload characterization},
+} 
+
+@article{awan2015performance,
+  title={Performance Characterization of In-Memory Data Analytics on a Modern Cloud Server},
+  author={Awan, Ahsan Javed and Brorsson, Mats and Vlassov, Vladimir and Ayguade, Eduard},
+  journal={arXiv preprint arXiv:1506.07742},
+  year={2015}
+}
+
+@inproceedings{ousterhout2015making,
+  title={Making sense of performance in data analytics frameworks},
+  author={Ousterhout, Kay and Rasti, Ryan}
+}
+
+@article{gog2015broom,
+  title={Broom: sweeping out Garbage Collection from Big Data systems},
+  author={Gog, Ionel and Giceva, Jana and Schwarzkopf, Malte and Vaswani, Kapil and Vytiniotis, Dimitrios and Ramalingan, Ganesan and Costa, Manuel and Murray, Derek and Hand, Steven and Isard, Michael},
+  journal={Young},
+  volume={4},
+  pages={8},
+  year={2015}
+}
+
+@article{terei2015blade,
+  title={Blade: A Data Center Garbage Collector},
+  author={Terei, David and Levy, Amit},
+  journal={arXiv preprint arXiv:1504.02578},
+  year={2015}
+}
+
+@inproceedings{maastrash,
+  title={Trash Day: Coordinating Garbage Collection in Distributed Systems},
+  author={Maas, Martin and Harris, Tim and Asanovic, Krste and Kubiatowicz, John},
+  booktitle={15th Workshop on Hot Topics in Operating Systems (HotOS XV)},
+  organization={USENIX Association}
+}
+
+@inproceedings{villavieja2011didi,
+  title={Didi: Mitigating the performance impact of tlb shootdowns using a shared tlb directory},
+  author={Villavieja, Carlos and Karakostas, Vasileios and Vilanova, Lluis and Etsion, Yoav and Ramirez, Alex and Mendelson, Avi and Navarro, Nacho and Cristal, Adrian and Unsal, Osman S},
+  booktitle={Parallel Architectures and Compilation Techniques (PACT), 2011 International Conference on},
+  pages={340--349},
+  year={2011},
+  organization={IEEE}
+}
+
+@book{herter2014timing,
+  title={Timing-predictable memory allocation in hard real-time systems},
+  author={Herter, J{\"o}rg},
+  year={2014},
+  publisher={epubli}
+}
+######### Spark related #########################
+@inproceedings{zaharia2010spark,
+  title={Spark: cluster computing with working sets},
+  author={Zaharia, Matei and Chowdhury, Mosharaf and Franklin, Michael J and Shenker, Scott and Stoica, Ion}
+}
+
+@article{Low:2012:DGF:2212351.2212354,
+ author = {Low, Yucheng and Bickson, Danny and Gonzalez, Joseph and Guestrin, Carlos and Kyrola, Aapo and Hellerstein, Joseph M.},
+ title = {Distributed GraphLab: A Framework for Machine Learning and Data Mining in the Cloud},
+ journal = {Proc. VLDB Endow.},
+ issue_date = {April 2012},
+ volume = {5},
+ number = {8},
+ month = apr,
+ year = {2012},
+ issn = {2150-8097},
+ pages = {716--727},
+ numpages = {12},
+ url = {http://dx.doi.org/10.14778/2212351.2212354},
+ doi = {10.14778/2212351.2212354},
+ acmid = {2212354},
+ publisher = {VLDB Endowment},
+} 
+
+@article{Fitzpatrick:2004:DCM:1012889.1012894,
+ author = {Fitzpatrick, Brad},
+ title = {Distributed Caching with Memcached},
+ journal = {Linux J.},
+ issue_date = {August 2004},
+ volume = {2004},
+ number = {124},
+ month = aug,
+ year = {2004},
+ issn = {1075-3583},
+ pages = {5--},
+ url = {http://dl.acm.org/citation.cfm?id=1012889.1012894},
+ acmid = {1012894},
+ publisher = {Belltown Media},
+ address = {Houston, TX},
+} 
+
+@article{lakshman2010cassandra,
+  title={Cassandra: a decentralized structured storage system},
+  author={Lakshman, Avinash and Malik, Prashant},
+  journal={ACM SIGOPS Operating Systems Review},
+  volume={44},
+  number={2},
+  pages={35--40},
+  year={2010},
+  publisher={ACM}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+################### Theory Papers (DSA) ###############
+@article{robson1980storage,
+  title={Storage allocation is NP-hard},
+  author={Robson, JM},
+  journal={Information Processing Letters},
+  volume={11},
+  number={3},
+  pages={119--125},
+  year={1980},
+  publisher={Elsevier}
+}
+
+@article{baker1984insertion,
+  title={Insertion and compaction algorithms in sequentially allocated storage},
+  author={Baker, Brenda S. and Coffman, Jr, Edward G},
+  journal={SIAM Journal on Computing},
+  volume={13},
+  number={3},
+  pages={600--609},
+  year={1984},
+  publisher={SIAM}
+}
+
+@article{Zhao:2015:BSB:2818748.2808233,
+ author = {Zhao, Jishen and Li, Sheng and Chang, Jichuan and Byrne, John L. and Ramirez, Laura L. and Lim, Kevin and Xie, Yuan and Faraboschi, Paolo},
+ title = {Buri: Scaling Big-Memory Computing with Hardware-Based Memory Expansion},
+ journal = {ACM Trans. Archit. Code Optim.},
+ issue_date = {October 2015},
+ volume = {12},
+ number = {3},
+ month = oct,
+ year = {2015},
+ issn = {1544-3566},
+ pages = {31:1--31:24},
+ articleno = {31},
+ numpages = {24},
+ url = {http://doi.acm.org/10.1145/2808233},
+ doi = {10.1145/2808233},
+ acmid = {2808233},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {Memory, big data, compression, performance, scalability},
+} 
+
+@misc{hadoop,
+  title = {Apache Hadoop},
+  howpublished = {\url{https://hadoop.apache.org/}},
+}
+
+@inproceedings{karakostas2014performance,
+  title={Performance analysis of the memory management unit under scale-out workloads},
+  author={Karakostas, Vasileios and Unsal, Osman S and Nemirovsky, Mario and Cristal, Adrian and Swift, Michael},
+  booktitle={Workload Characterization (IISWC), 2014 IEEE International Symposium on},
+  pages={1--12},
+  year={2014},
+  organization={IEEE}
+}
+
+
+@inproceedings{yoon2012boom,
+  title={BOOM: enabling mobile memory based low-power server DIMMs},
+  author={Yoon, Doe Hyun and Chang, Jichuan and Muralimanohar, Naveen and Ranganathan, Parthasarathy},
+  booktitle={ACM SIGARCH Computer Architecture News},
+  volume={40},
+  number={3},
+  pages={25--36},
+  year={2012},
+  organization={IEEE Computer Society}
+}
+
+
+
